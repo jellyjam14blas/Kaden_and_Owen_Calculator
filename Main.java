@@ -10,7 +10,12 @@ class Main {
   static int[] memory = new int [maxArrLen];
   
   public static void main(String[] args) {
+
+  System.out.println("\n██╗  ██╗ █████╗ ██████╗ ███████╗███╗   ██╗     █████╗ ███╗   ██╗██████╗      ██████╗ ██╗    ██╗███████╗███╗   ██╗███████╗                            \n██║ ██╔╝██╔══██╗██╔══██╗██╔════╝████╗  ██║    ██╔══██╗████╗  ██║██╔══██╗    ██╔═══██╗██║    ██║██╔════╝████╗  ██║██╔════╝                            \n█████╔╝ ███████║██║  ██║█████╗  ██╔██╗ ██║    ███████║██╔██╗ ██║██║  ██║    ██║   ██║██║ █╗ ██║█████╗  ██╔██╗ ██║███████╗                            \n██╔═██╗ ██╔══██║██║  ██║██╔══╝  ██║╚██╗██║    ██╔══██║██║╚██╗██║██║  ██║    ██║   ██║██║███╗██║██╔══╝  ██║╚██╗██║╚════██║                            \n██║  ██╗██║  ██║██████╔╝███████╗██║ ╚████║    ██║  ██║██║ ╚████║██████╔╝    ╚██████╔╝╚███╔███╔╝███████╗██║ ╚████║███████║                            \n╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝      ╚═════╝  ╚══╝╚══╝ ╚══════╝╚═╝  ╚═══╝╚══════╝                            \n                                                                                                                                                     \n █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗     ██████╗ █████╗ ██╗      ██████╗██╗   ██╗██╗      █████╗ ████████╗ ██████╗ ██████╗ \n██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝    ██╔════╝██╔══██╗██║     ██╔════╝██║   ██║██║     ██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗\n███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗      ██║     ███████║██║     ██║     ██║   ██║██║     ███████║   ██║   ██║   ██║██████╔╝\n██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝      ██║     ██╔══██║██║     ██║     ██║   ██║██║     ██╔══██║   ██║   ██║   ██║██╔══██╗\n██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗    ╚██████╗██║  ██║███████╗╚██████╗╚██████╔╝███████╗██║  ██║   ██║   ╚██████╔╝██║  ██║\n╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝     ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝\n                                                                                                                                                     \n ██╗████████╗██████╗  █████╗ ██████╗ ███████╗███╗   ███╗ █████╗ ██████╗ ██╗  ██╗    ██████╗ ███████╗███╗   ██╗██████╗ ██╗███╗   ██╗ ██████╗ ██╗      \n██╔╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔════╝████╗ ████║██╔══██╗██╔══██╗██║ ██╔╝    ██╔══██╗██╔════╝████╗  ██║██╔══██╗██║████╗  ██║██╔════╝ ╚██╗     \n██║    ██║   ██████╔╝███████║██║  ██║█████╗  ██╔████╔██║███████║██████╔╝█████╔╝     ██████╔╝█████╗  ██╔██╗ ██║██║  ██║██║██╔██╗ ██║██║  ███╗ ██║     \n██║    ██║   ██╔══██╗██╔══██║██║  ██║██╔══╝  ██║╚██╔╝██║██╔══██║██╔══██╗██╔═██╗     ██╔═══╝ ██╔══╝  ██║╚██╗██║██║  ██║██║██║╚██╗██║██║   ██║ ██║     \n╚██╗   ██║   ██║  ██║██║  ██║██████╔╝███████╗██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██╗    ██║     ███████╗██║ ╚████║██████╔╝██║██║ ╚████║╚██████╔╝██╔╝     \n ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚══════╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝   ");
+                                                                   
   start();
+
+    
   }
 
 
@@ -18,7 +23,7 @@ class Main {
 
     Scanner input = new Scanner(System.in); // Create a Scanner object
 
-  System.out.println("\nKaden & Owen's Awesome Calculator (Trademark pending)\n\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Mod\n6. Equals\n7. Save\n8. Load\n9. Clear\n10. Header\n0. Exit"); // REMEMBER TO ADD NEW METHODS TO THE PRINTED LIST HERE!
+  System.out.println("\nKaden & Owen's Awesome Calculator (Trademark pending)\n\n1. Add +\n2. Subtract -\n3. Multiply *\n4. Divide ÷\n5. Mod %\n6. Equals =\n7. Save ✎\n8. Load ↻\n9. Clear ⌫\n10. Header ㋡\n0. Exit ✖"); // REMEMBER TO ADD NEW METHODS TO THE PRINTED LIST HERE!
       
     String num = input.nextLine(); // Read user input
 
@@ -143,7 +148,7 @@ class Main {
 
   public static void save() {
   Scanner input = new Scanner(System.in); // Create a Scanner object
-  System.out.println("Ready to Save.(10 to End)");
+  System.out.println("Ready to Save your first Digit. \neg. 1 2 3 10 (10 to End)");
     int[] intString = new int[maxArrLen];
     
     int j = 1;
@@ -171,8 +176,12 @@ class Main {
     
     int sum = 0;
     if (print == 1) {
+      if (memory != 0) {
       for (int i = 1; i < memLen; i++) {
       System.out.print(memory[i] + " ");
+        }
+      } else {
+      System.out.print("Memory is Empty");
       }
     start();
     } else {
@@ -207,7 +216,7 @@ class Main {
     Scanner input = new Scanner(System.in); // Create a Scanner object
     String str = input.nextLine(); // Read user input
     if ("Mem".equalsIgnoreCase(str)) {
-    System.out.println("mem recieved");
+    //System.out.println("mem recieved");
       if (load(0) != 0) { // So if memory is empty it won't work if (load(0) == null) {}
       a = load(0); // Load(0) is loading memeory without printing anything
       } else {
